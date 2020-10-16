@@ -6,5 +6,5 @@ var guard = require('~/cartridge/scripts/guard');
 function csrfFailed() {
     app.getView().render('csrf/csrffailed');
 }
-
+/*Test for Stash */
 exports.Failed = guard.ensure(['get', 'https'], csrfFailed);
