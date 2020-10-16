@@ -30,6 +30,8 @@ function list() {
     app.getView().render('account/addressbook/addresslist');
 }
 
+/*Test Comment for git*/
+
 /**
  * Clears the profile form and renders the addressdetails template.
  */
